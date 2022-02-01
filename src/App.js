@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Header } from './components/common'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-<h1>Hello This is my fyp</h1>
+      <Header />
     </div>
   );
 }
