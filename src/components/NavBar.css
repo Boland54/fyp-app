@@ -1,5 +1,8 @@
 .navbar {
-  background-color: #1f5156;
+  
+  background-image: url('bay.jpg');
+  background-size: cover;
+  padding-right: 100px;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -37,8 +40,9 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
+  text-align: center;
   padding: 0.5rem 1rem;
   height: 100%;
   border-bottom: 3px solid transparent;
